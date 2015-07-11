@@ -9,8 +9,13 @@ text-decoration: none;
 
 body {
 	text-align: center;
-	background:linear-gradient(#fa8072,#ff0000);
+	background-image: url(background.jpg);
 	color:#FFFFFF;
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
 }
 
 div#wrapper {  
