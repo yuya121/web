@@ -1,19 +1,19 @@
 h1{
-    font-family:$bold;
-    font-size:6.0em;
     color:$teal;
     text-align:center;
+     font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+    font-size:8000%;
 }
 h2{
     font-family:$regular;
-    font-size:1.4em;
+    font-size:200%;
     text-align:center;
     color:$dark-gray;
 }
 p{
     font-family:$regular;
     color:$dark-gray;
-    font-size:1.4em;
+    font-size:100%;
 }
 pre{
     color:$light-gray;
@@ -29,7 +29,7 @@ pre{
         width:100%;
         margin-top:-170px;
         i{
-            font-size:4.0em;
+            /*font-size:4.0em;*/
             width:100%;
             text-align:center;
             display:inline-block;

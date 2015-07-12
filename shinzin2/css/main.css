@@ -1,6 +1,6 @@
-/*@import url("http://hello.myfonts.net/count/25cb92");
+@import url("http://hello.myfonts.net/count/25cb92");
 /* FONTS ---------------------------------------------------------- */
-/*@font-face {
+@font-face {
   font-family: 'BrandonText-BoldItalic';
   src: url("webfonts/25CB92_0_0.eot");
   src: url("webfonts/25CB92_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/25CB92_0_0.woff") format("woff"), url("webfonts/25CB92_0_0.ttf") format("truetype");
@@ -20,38 +20,36 @@
 
 /* COLORS ---------------------------------------------------------- */
 /* line 1, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-/*h1 {
-  font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
-  font-size: 6.0em;
-  color: #1babb7;
+h1 {
+  color: #dcdcdc;
   text-align: center;
+　font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+　font-size:8000%;
 }
 
 /* line 7, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-/*h2 {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
+h2 {
+  font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+  font-size: 200%
   text-align: center;
-  color: #333a3e;
+  color: #dcdcdc;
 }
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-/*p {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  color: #333a3e;
-  font-size: 1.4em;
+p {
+  font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+  color: #dcdcdc;
+ font-size:100%;
 }
 
 /* line 18, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-/*pre {
+pre {
   color: #d5d7dd;
   color: #bcbdc0;
-  font-size: 1.4em;
   line-height: 1.6em;
 }
 
 /* line 26, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-
 .window:nth-child(1) .content {
   position: absolute;
   top: 50%;
@@ -60,7 +58,7 @@
 }
 /* line 31, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(1) .content i {
-  font-size: 4.0em;
+  /*font-size: 4.0em;*/
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -102,7 +100,7 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: -230px;
+  margin-top: -130px;
 }
 /* line 73, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(3) .content h2 {
@@ -229,7 +227,7 @@ span.title {
 }
 
 /* line 98, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
-/*#info {
+#info {
   position: absolute;
   height: 50px;
   width: 230px;
@@ -248,7 +246,7 @@ span.title {
 }
 
 /* line 116, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
-/*#info p {
+#info p {
   width: 65px;
   margin: 12px 17px 0 0;
   position: absolute;
@@ -275,7 +273,7 @@ span.title {
 }
 
 /* line 6, ../scss/main.scss */
-/*html, body {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -289,31 +287,61 @@ span.title {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(1) {
-  background: #d5d7dd;
-  top: 0%;
+  background-image: url(../background.jpg);
+  /*top: 0%;*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(2) {
-  background: #1babb7;
+  background-image: url(../background2.jpg);
   top: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(3) {
-  background: #6ab29f;
+ background-image: url(../background3.jpg);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
   top: 200%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(4) {
-  background: #333a3e;
+ background-image: url(../background4.jpg);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
   top: 300%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(5) {
-  background: #d0482b;
+ background-image: url(../background3.jpg);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  /*text-align: center;*/
   top: 400%;
 }
 
@@ -321,4 +349,14 @@ span.title {
 .window:nth-child(6) {
   background: #231f20;
   top: 500%;
+}
+
+/*link docorations*/
+a:link{color: #FFFFFF;}
+a:visited{color: #FFFFFF;}
+a:hover{color: #a9a9a9;}
+a:active{color: #FFFFFF;}
+
+a {
+text-decoration: none;
 }
