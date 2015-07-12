@@ -335,7 +335,13 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(5) {
-  background: #d0482b;
+ background-image: url(../background3.jpg);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  /*text-align: center;*/
   top: 400%;
 }
 
