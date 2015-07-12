@@ -100,7 +100,7 @@ pre {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: -230px;
+  margin-top: -130px;
 }
 /* line 73, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(3) .content h2 {
