@@ -21,32 +21,31 @@
 /* COLORS ---------------------------------------------------------- */
 /* line 1, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 h1 {
-  font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
-  font-size: 6.0em;
-  color: #1babb7;
+  color: #dcdcdc;
   text-align: center;
+　font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+　font-size:8000%;
 }
 
 /* line 7, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 h2 {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
+  font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+  font-size: 200%
   text-align: center;
-  color: #333a3e;
+  color: #dcdcdc;
 }
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 p {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   color: #333a3e;
-  font-size: 1.4em;
+ font-size:100%;
 }
 
 /* line 18, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 pre {
   color: #d5d7dd;
   color: #bcbdc0;
-  font-size: 1.4em;
   line-height: 1.6em;
 }
 
@@ -59,7 +58,7 @@ pre {
 }
 /* line 31, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(1) .content i {
-  font-size: 4.0em;
+  /*font-size: 4.0em;*/
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -288,14 +287,26 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(1) {
-  background: #d5d7dd;
-  top: 0%;
+  background-image: url(../background.jpg);
+  /*top: 0%;*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(2) {
-  background: #1babb7;
+  background-image: url(../background2.jpg);
   top: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
 }
 
 /* line 18, ../scss/main.scss */
@@ -320,4 +331,14 @@ html, body {
 .window:nth-child(6) {
   background: #231f20;
   top: 500%;
+}
+
+/*link docorations*/
+a:link{color: #FFFFFF;}
+a:visited{color: #FFFFFF;}
+a:hover{color: #a9a9a9;}
+a:active{color: #FFFFFF;}
+
+a {
+text-decoration: none;
 }
