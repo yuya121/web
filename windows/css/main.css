@@ -37,8 +37,8 @@ h2 {
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 p {
-  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
-  color: #333a3e;
+  font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','ＭＳ Ｐ明朝','MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+  color: #dcdcdc;
  font-size:100%;
 }
 
@@ -311,7 +311,13 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(3) {
-  background: #6ab29f;
+ background-image: url(../background3.jpg);
+ background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
   top: 200%;
 }
 
